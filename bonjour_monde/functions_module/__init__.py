@@ -20,7 +20,7 @@ def print_bar():
     :return: None 
     """
 
-    print('foo')
+    print('bar')
 
 
 __all__ = sorted(['get_foo', 'print_bar'])
