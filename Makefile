@@ -20,3 +20,7 @@ clean:  ## Clean the project directory
 
 test:  ## Run unit tests
 	nosetests --where=$(PROJECT)/tests
+
+local-docs:  ## Create local HTML documentation
+	$(MAKE) -C docs html
+	open docs/_build/html/index.html

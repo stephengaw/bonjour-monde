@@ -10,7 +10,7 @@ This is a skeleton project for a new python package. It can be used to bootstrap
 python packaging.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    installation
