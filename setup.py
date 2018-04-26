@@ -16,5 +16,8 @@ setup(name='bonjour_monde',
       test_suite='nose.collector',
       tests_require=['nose'],
       install_requires=[],
+      entry_points={
+        'console_scripts': ['print-bar=bonjour_monde.scripts:main'],
+      },
       zip_safe=False
       )
