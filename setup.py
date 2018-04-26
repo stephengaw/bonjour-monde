@@ -13,6 +13,8 @@ setup(name='bonjour_monde',
       author='Stephen Gaw',
       license='MIT',
       packages=find_packages(),
+      test_suite='nose.collector',
+      tests_require=['nose'],
       install_requires=[],
       zip_safe=False
       )
